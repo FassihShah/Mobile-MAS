@@ -7,6 +7,7 @@ load_dotenv()
 
 IMGBB_API_KEY = os.getenv("IMGBB_API_KEY")
 RAPID_API_KEY = os.getenv("RAPID_API_KEY")
+BING_END_POINT= os.getenv("BING_END_POINT")
 
 def search_by_image(state: ImageUnderstandingState) -> ImageUnderstandingState:
     image_path = state["image_path"]
@@ -93,7 +94,7 @@ def search_by_image(state: ImageUnderstandingState) -> ImageUnderstandingState:
         print(f"Starting Bing Visual Search...")
         
         search_response = requests.get(
-            "https://bing-image-search5.p.rapidapi.com/api/v1/bing/search/",
+            BING_END_POINT,
             headers={
                 "X-RapidAPI-Host": "bing-image-search5.p.rapidapi.com",
                 "X-RapidAPI-Key": RAPID_API_KEY
