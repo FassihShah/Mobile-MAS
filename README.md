@@ -94,7 +94,7 @@ SupervisorAgent (LangGraph ReAct)
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/mobile-mas.git
+git clone https://github.com/FassihShah/mobile-mas.git
 cd mobile-mas
 ```
 ### 2. Create and Activate Virtual Environment
@@ -114,6 +114,12 @@ BING_END_POINT=https://api.bing.microsoft.com/v7.0/images/search
 GCS_API_KEY=your_google_custom_search_key
 GCS_CX=your_custom_search_engine_id
 ```
+### 5. Run the app
+```
+streamlit run app.py
+```
+
+
 
 
 
