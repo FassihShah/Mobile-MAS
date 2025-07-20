@@ -5,7 +5,7 @@ import os
 import time
 import shutil
 import atexit
-from SupervisorAgent.graph import supervisor_agent, system_prompt
+from SupervisorAgent.agent import supervisor_agent, system_prompt
 
 st.set_page_config(
     page_title="📱 Mobile Assistant",
