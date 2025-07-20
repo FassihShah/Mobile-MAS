@@ -1,11 +1,11 @@
-# 📱 Mobile MAS – Multi-Agent System
+# Mobile MAS – Multi-Agent System
 
 **Mobile MAS** is an intelligent, multi-agent system built with **LangGraph** that predicts the resale price of used mobile phones, identifies mobile models from images, and fetches detailed specifications.  
 The system integrates web scraping, ML modeling, and multiple specialized agents to deliver accurate and up-to-date results.
 
 ---
 
-## 🚀 Features
+## Features
 
 - **🔍 Image-based Mobile Identification**
   - Detects **brand and model** from the back-side image of a mobile using **Bing Image Search API (RapidAPI)**.
