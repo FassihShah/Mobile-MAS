@@ -3,6 +3,9 @@
 **Mobile MAS** is an intelligent, multi-agent system built with **LangGraph** that predicts the resale price of used mobile phones, identifies mobile models from images, and fetches detailed specifications.  
 The system integrates web scraping, ML modeling, and multiple specialized agents to deliver accurate and up-to-date results.
 
+
+https://github.com/user-attachments/assets/cb68fc59-0ea7-47d7-b86e-bd4684116593
+
 ---
 
 ## Features
